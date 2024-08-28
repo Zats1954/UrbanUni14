@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">ImageView</string>
+    <string name="back">Начало</string>
+    <string name="next">Дальше</string>
+    <string name="end_text">Do skoreho videnia!\n До скорой встречи!</string>
+    <string name="exit">Выход</string>
+    <string name="text_begin">Начать просмотр</string>
+    <string name="text_title">Альбом фотографий из Словакии</string>
+</resources>
