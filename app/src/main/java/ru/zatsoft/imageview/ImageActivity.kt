@@ -11,9 +11,11 @@ class ImageActivity : AppCompatActivity() {
     private val foto: List<Int> = arrayListOf(
         R.drawable.levoca,
         R.drawable.bardejov,
-        R.drawable.stara_lubovna,
+        R.drawable.telgart,
         R.drawable.spisky_hrad,
+        R.drawable.stara_lubovna,
         R.drawable.tatry,
+        R.drawable.tatry1,
         R.drawable.jasna,
         R.drawable.deman_jaskyna,
         R.drawable.tokaj
@@ -60,17 +62,17 @@ class ImageActivity : AppCompatActivity() {
 
     private fun firstText(count: Int) {
         if (count == 0) {
-            binding.btnBackward.text = "Начало"
+            binding.btnBackward.text = getString(R.string.textN)
         } else {
-            binding.btnBackward.text = "Назад"
+            binding.btnBackward.text = getString(R.string.back)
         }
     }
 
     private fun lastText(count: Int) {
         if (count == foto.lastIndex) {
-            binding.btnForward.text = "Конец"
+            binding.btnForward.text = getString(R.string.textK)
         } else {
-            binding.btnForward.text = "Дальше"
+            binding.btnForward.text = getString(R.string.next)
         }
     }
 }
